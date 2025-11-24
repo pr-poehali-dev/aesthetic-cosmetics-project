@@ -78,8 +78,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="text-2xl font-serif text-primary">МОЛОДОСТЬ БЕЗ УКОЛОВ
-Ирины Садовской</div>
+          <div className="text-2xl font-serif text-primary">МОЛОДОСТЬ БЕЗ УКОЛОВ</div>
           <div className="hidden md:flex gap-8 items-center">
             <a href="#services" className="story-link text-sm hover:text-primary transition-colors">Услуги</a>
             <a href="#prices" className="story-link text-sm hover:text-primary transition-colors">Цены</a>
