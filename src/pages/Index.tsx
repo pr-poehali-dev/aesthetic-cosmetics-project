@@ -79,7 +79,7 @@ const Index = () => {
       <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="text-xl font-serif leading-tight">
-            <div className="text-foreground font-semibold">МОЛОДОСТЬ БЕЗ УКОЛОВ</div>
+            <div className="font-bold tracking-tight" style={{ color: '#B8860B' }}>МОЛОДОСТЬ БЕЗ УКОЛОВ</div>
             <div className="text-primary">ИРИНЫ САДОВСКОЙ</div>
           </div>
           <div className="hidden md:flex gap-8 items-center">
