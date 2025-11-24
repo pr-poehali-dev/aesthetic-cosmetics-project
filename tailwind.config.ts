@@ -108,13 +108,34 @@ export default {
 	},
 	plugins: [
 		require("tailwindcss-animate"),
-		function({ addComponents }: any) {
-			addComponents({
+		function({ addUtilities }: any) {
+			addUtilities({
 				'.story-link': {
-					'@apply': 'relative inline-block after:content-[\'\'] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left',
+					'position': 'relative',
+					'display': 'inline-block',
+					'&::after': {
+						'content': '""',
+						'position': 'absolute',
+						'width': '100%',
+						'transform': 'scaleX(0)',
+						'height': '2px',
+						'bottom': '0',
+						'left': '0',
+						'background-color': 'hsl(var(--primary))',
+						'transform-origin': 'bottom right',
+						'transition': 'transform 0.3s ease-out',
+					},
+					'&:hover::after': {
+						'transform': 'scaleX(1)',
+						'transform-origin': 'bottom left',
+					},
 				},
 				'.hover-scale': {
-					'@apply': 'transition-transform duration-300 hover:scale-105 cursor-pointer',
+					'transition': 'transform 0.3s ease-out',
+					'cursor': 'pointer',
+					'&:hover': {
+						'transform': 'scale(1.05)',
+					},
 				},
 			});
 		},
