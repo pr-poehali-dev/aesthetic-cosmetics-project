@@ -121,9 +121,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-serif mb-4">Наши услуги</h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              Профессиональные процедуры для лица и тела с использованием премиальных средств
-            </p>
+            <p className="text-muted-foreground max-w-2xl mx-auto">Профессиональные процедуры для лица и тела с использованием профессиональных средств</p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             {services.map((service, index) => (
