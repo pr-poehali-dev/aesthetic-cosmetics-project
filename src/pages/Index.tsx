@@ -83,9 +83,16 @@ const Index = () => {
       <div className="relative z-10">
       <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="text-xl font-serif leading-tight">
-            <div className="font-bold tracking-tight" style={{ color: '#B8860B' }}>МОЛОДОСТЬ БЕЗ УКОЛОВ</div>
-            <div className="font-bold tracking-tight" style={{ color: '#B8860B' }}>ИРИНЫ САДОВСКОЙ</div>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/ebc1c3fe-22af-4d8a-aee6-7dcd2a2483fc.jpg" 
+              alt="Ирина Садовская" 
+              className="w-12 h-12 rounded-full object-cover border-2 border-primary"
+            />
+            <div className="text-xl font-serif leading-tight">
+              <div className="font-bold tracking-tight" style={{ color: '#B8860B' }}>МОЛОДОСТЬ БЕЗ УКОЛОВ</div>
+              <div className="font-bold tracking-tight" style={{ color: '#B8860B' }}>ИРИНЫ САДОВСКОЙ</div>
+            </div>
           </div>
           <div className="hidden md:flex gap-8 items-center">
             <a href="#services" className="story-link text-sm hover:text-primary transition-colors">Услуги</a>
