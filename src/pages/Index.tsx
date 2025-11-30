@@ -17,7 +17,7 @@ const Index = () => {
     {
       title: 'Массаж лица',
       description: 'Лимфодренажный, скульптурный, anti-age массаж для сияния кожи',
-      price: 'от 3 500 ₽',
+      price: 'от 1 500 ₽',
       icon: 'Sparkles'
     },
     {
