@@ -267,12 +267,16 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-serif mb-8">О нас</h2>
-            <div className="flex justify-center mb-8">
+            <div className="flex flex-col items-center mb-8">
               <img 
                 src="https://cdn.poehali.dev/files/ebc1c3fe-22af-4d8a-aee6-7dcd2a2483fc.jpg" 
                 alt="Ирина Садовская - основатель" 
-                className="w-48 h-48 rounded-full object-cover border-4 border-primary shadow-2xl"
+                className="w-48 h-48 rounded-full object-cover border-4 border-primary shadow-2xl mb-4"
               />
+              <h3 className="text-2xl font-serif text-foreground mb-2">Ирина Садовская</h3>
+              <p className="text-muted-foreground text-center max-w-md">
+                Косметолог-эстетист, косметолог-консультант бренда Genevie Professional
+              </p>
             </div>
             <div className="space-y-6 text-lg text-muted-foreground max-w-3xl mx-auto">
               <p>
